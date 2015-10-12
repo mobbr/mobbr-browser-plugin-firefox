@@ -1,0 +1,18 @@
+{
+  "title": "Mobbr online payments",
+  "name": "mobbr",
+  "version": "0.1.0",
+  "description": "Donate, pay or fund any URL, we make sure everybody gets their fair share.",
+  "homepage": "https://mobbr.com",
+  "icon": "icon.png",
+  "main": "index.js",
+  "author": "Mobbr",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "GPL-2.0",
+  "permissions": {
+    "cross-domain-content": ["https://mobbr.com/", "https://api.mobbr.com/"]
+  }
+}
